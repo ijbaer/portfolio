@@ -1,22 +1,61 @@
-About
-Work
-Photos
-Contact
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet"
+              href="https://fonts.googleapis.com/css?family=Caveat">
+        <title>Contact</title>
+    </head>
+    <body>
+        <div class="skip"><a href="#main">Skip to Main Content</a></div>
+        <div class="container-contact">
+        <div class="nav">
+            <nav>
+                <ul>
+                    <li><a href="index.html">ABOUT</a></li>
+                    <li><a href="work.html">WORK</a></li>
+                    <li><a href="photos.html">PHOTOS</a></li>
+                    <li><a class="current" href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
 
-ILANA BAER
+        <div class="ilana">
+            <a name="ilana" id="ilana"></a>
+            <p>Ilana Baer</p>
+        </div>
 
-<form action="https://formspree.io/ijbaer@umich.edu" method="post">
-    <fieldset>
-        <link rel="stylesheet" href="css/formStyle.css">
-        <legend>Information</legend>
-        <label for="name">Name</label>
-        <input type="text" id = "name"><br/>
-        <label> Email:
-            <input type="email" value= "">
-        </label><br/>
-        <label for="message">Message:</label>
-        <input type="text" id="message"><br>
-        <input type="submit" value="Submit">
-    </fieldset>
-</form>
+        <header id="main-contact">
+            <h1>Contact Me!</h1>
+        </header>
+        <form action="https://formspree.io/xknnokdd" id="form" method="POST">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your first name...">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+        
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Your email...">
+        
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Write something..." style="height:150px"></textarea>
+        
+            <input type="submit" value="Submit">
+        </form>
+        <footer>
+            <a href="https://github.com/ijbaer" id="github" target="_blank">GitHub</a> 
+            <a href="https://www.linkedin.com/in/ilanabaer/" id="linkedin" target="_blank">LinkedIn</a> 
+            <a href="https://www.facebook.com/ilana.baer.7" id="facebook" target="_blank">Facebook</a> 
+            <a href="images/resume.pdf" id="resume" target="_blank">Resume</a>
+        
+            <p>Ilana Baer</p>
+        </footer>
+        </div>
+    </body>
+</html>
+
 
