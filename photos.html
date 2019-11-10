@@ -10,10 +10,11 @@
         <title>Photos</title>
     </head>
     <body>
-        <div class="skip"><a href="#main">Skip to Main Content</a></div>
-        <div class="container">
+        <div id="skip">
+            <a href="#main">Skip to Main Content</a>
+        </div>
         <div class="nav">
-            <nav>
+            <nav role="navigation">
                 <ul>
                     <li><a href="index.html">ABOUT</a></li>
                     <li><a href="work.html">WORK</a></li>
@@ -22,34 +23,32 @@
                 </ul>
             </nav>
         </div>
-
         <div class="ilana">
-            <a name="ilana" id="ilana"></a>
+            <a id="ilana"></a>
             <p>Ilana Baer</p>
         </div>
-
-        <header id="main-photos">
-            <h1>Travel and Activities</h1>
-        </header>
-        <div class="photos">
-            <img src="images/zipline.jpg" alt="Zipline"/>
-            <img src="images/parents.jpg" alt="Parents">
-            <img src="images/waterski.jpg" alt="Water ski"/>
-            <img src="images/roommates.jpg" alt="Roommates"/>
-            <img src="images/sintra.jpg" alt="Sintra Castle"/>
-            <img src="images/gameday.jpg" alt="Game day"/>
-            <img src="images/montana.jpg" alt="Montana bison"/>
-            <img src="images/rafting.jpg" alt="Rafting"/>
-            <img src="images/grandmas.jpg" alt="Grandmas"/>
-        </div>
-        </div>
-        <footer>
-            <a href="https://github.com/ijbaer" id="github" target="_blank">GitHub</a> 
-            <a href="https://www.linkedin.com/in/ilanabaer/" id="linkedin" target="_blank">LinkedIn</a> 
-            <a href="https://www.facebook.com/ilana.baer.7" id="facebook" target="_blank">Facebook</a> 
-            <a href="images/resume.pdf" id="resume" target="_blank">Resume</a>
-            <p>Ilana Baer</p>
-        </footer>
+        <div class="container">
+            <header id="main-photos" role="banner">
+                <h1>Travel and Activities</h1>
+            </header>
+            <main class="photos" role="main">
+                <img src="images/zipline.jpg" alt="Zipline"/>
+                <img src="images/parents.jpg" alt="Parents">
+                <img src="images/waterski.jpg" alt="Water ski"/>
+                <img src="images/roommates.jpg" alt="Roommates"/>
+                <img src="images/sintra.jpg" alt="Sintra Castle"/>
+                <img src="images/gameday.jpg" alt="Game day"/>
+                <img src="images/montana.jpg" alt="Montana bison"/>
+                <img src="images/rafting.jpg" alt="Rafting"/>
+                <img src="images/grandmas.jpg" alt="Grandmas"/>
+            </main>
+            <footer role="contentinfo">
+                <a href="https://github.com/ijbaer" id="github" target="_blank">GitHub</a> 
+                <a href="https://www.linkedin.com/in/ilanabaer/" id="linkedin" target="_blank">LinkedIn</a> 
+                <a href="https://www.facebook.com/ilana.baer.7" id="facebook" target="_blank">Facebook</a> 
+                <a href="images/resume.pdf" id="resume" target="_blank">Resume</a>
+                <p>Ilana Baer</p>
+            </footer>
         </div>
     </body>
 </html>

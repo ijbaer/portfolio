@@ -10,10 +10,11 @@
         <title>Ilana Portfolio</title>
     </head>
     <body>
-        <div class="skip"><a href="#main">Skip to Main Content</a></div>
-        
+        <div id="skip">
+            <a href="#main">Skip to Main Content</a>
+        </div>
         <div class="nav">
-            <nav>
+            <nav role="navigation">
                 <ul>
                     <li><a class="current" href="index.html">ABOUT</a></li>
                     <li><a href="work.html">WORK</a></li>
@@ -22,39 +23,36 @@
                 </ul>
             </nav>
         </div>
-
-        <div class="ilana">
-            <a name="ilana" id="ilana"></a>
+        <div class="ilana" role="banner">
+            <a id="ilana"></a>
             <p>Ilana Baer</p>
         </div>
 
-        <div class="container-index">
-        <header id="main">
-            <h1>WELCOME!</h1>
-        </header>
-        <div class="profile-image">
-            <img src="images/profile.jpg" alt="decorative"/>
-        </div>
-        <div class="location text-block">
-            <a name="location"></a>
-            <p>UNIVERSITY OF MICHIGAN  · ANN ARBOR  · SCHOOL OF INFORMATION</p>
-        </div>
-        <div class="info text-block">
-            <a name="info"></a>
-            <p>I am a junior pursuing a B.S. in the School of Information with a minor in statistics. Within the School of Information, I am on the Information Analysis track, where we focus on building skills to identify and articulate questions that matter to stakeholders and then presenting our findings in a compelling way. </p>
-            <p><br>On campus, I am involved with research through the School of Information, the American Cancer Society at UMich, and intramural sports.</p>
-            <p><br>The past two summers I have focused on building my data analysis skills through attending a study abroad data science program in Lisbon, Portugal as well as two data science internships at a Lisbon user marketing firm and a foot traffic analytics start-up in San Francisco. </p>
-        </div>
-
-        <footer>
-            <a href="https://github.com/ijbaer" id="github" target="_blank">GitHub</a> 
-            <a href="https://www.linkedin.com/in/ilanabaer/" id="linkedin" target="_blank">LinkedIn</a> 
-            <a href="https://www.facebook.com/ilana.baer.7" id="facebook" target="_blank">Facebook</a> 
-            <a href="images/resume.pdf" id="resume" target="_blank">Resume</a>
-        
-            <p>Ilana Baer</p>
-        </footer>
-        </div>
+        <main class="container-index" role="main">
+            <header id="main">
+                <h1>WELCOME!</h1>
+            </header>
+            <div class="profile-image">
+                <img src="images/profile.jpg" alt="decorative"/>
+            </div>
+            <div class="location text-block">
+                <a name="location"></a>
+                <p>UNIVERSITY OF MICHIGAN  · ANN ARBOR  · SCHOOL OF INFORMATION</p>
+            </div>
+            <div class="info text-block">
+                <a name="info"></a>
+                <p>I am a junior pursuing a B.S. in the School of Information with a minor in statistics. Within the School of Information, I am on the Information Analysis track, where we focus on building skills to identify and articulate questions that matter to stakeholders and then presenting our findings in a compelling way. </p>
+                <p><br>On campus, I am involved with research through the School of Information, the American Cancer Society at UMich, and intramural sports.</p>
+                <p><br>The past two summers I have focused on building my data analysis skills through attending a study abroad data science program in Lisbon, Portugal as well as two data science internships at a Lisbon user marketing firm and a foot traffic analytics start-up in San Francisco. </p>
+            </div>
+            <footer role="contentinfo">
+                <a href="https://github.com/ijbaer" id="github" target="_blank">GitHub</a> 
+                <a href="https://www.linkedin.com/in/ilanabaer/" id="linkedin" target="_blank">LinkedIn</a> 
+                <a href="https://www.facebook.com/ilana.baer.7" id="facebook" target="_blank">Facebook</a> 
+                <a href="images/resume.pdf" id="resume" target="_blank">Resume</a>
+                <p>Ilana Baer</p>
+            </footer>
+        </main>
     </body>
 </html>
 

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
@@ -10,51 +10,54 @@
         <title>Contact</title>
     </head>
     <body>
-        <div class="skip"><a href="#main">Skip to Main Content</a></div>
-        <div class="container-contact">
-        <div class="nav">
-            <nav>
-                <ul>
-                    <li><a href="index.html">ABOUT</a></li>
-                    <li><a href="work.html">WORK</a></li>
-                    <li><a href="photos.html">PHOTOS</a></li>
-                    <li><a class="current" href="contact.html">CONTACT</a></li>
-                </ul>
-            </nav>
+        <div id="skip">
+            <a href="#main">Skip to Main Content</a>
         </div>
 
-        <div class="ilana">
-            <a name="ilana" id="ilana"></a>
-            <p>Ilana Baer</p>
-        </div>
+            <div class="nav">
+                <nav role="navigation">
+                    <ul>
+                        <li><a href="index.html">ABOUT</a></li>
+                        <li><a href="work.html">WORK</a></li>
+                        <li><a href="photos.html">PHOTOS</a></li>
+                        <li><a class="current" href="contact.html">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
 
-        <header id="main-contact">
-            <h1>Contact Me!</h1>
-        </header>
-        <form action="https://formspree.io/xknnokdd" id="form" method="POST">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your first name...">
-        
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name...">
-        
-            <label for="email">Email</label>
-            <input type="text" id="email" name="email" placeholder="Your email...">
-        
-            <label for="message">Message</label>
-            <textarea id="message" name="message" placeholder="Write something..." style="height:150px"></textarea>
-        
-            <input type="submit" value="Submit">
-        </form>
-        <footer>
-            <a href="https://github.com/ijbaer" id="github" target="_blank">GitHub</a> 
-            <a href="https://www.linkedin.com/in/ilanabaer/" id="linkedin" target="_blank">LinkedIn</a> 
-            <a href="https://www.facebook.com/ilana.baer.7" id="facebook" target="_blank">Facebook</a> 
-            <a href="images/resume.pdf" id="resume" target="_blank">Resume</a>
-        
-            <p>Ilana Baer</p>
-        </footer>
-        </div>
+            <div class="ilana">
+                <a id="ilana"></a>
+                <p>Ilana Baer</p>
+            </div>
+
+            <header id="main-contact" role="banner">
+                <h1>Contact Me!</h1>
+            </header>
+        <main class="container-contact" role="main">
+            <form action="https://formspree.io/xknnokdd" id="form" method="POST">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your first name...">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+            
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your email...">
+            
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Write something..." style="height:150px"></textarea>
+            
+                <input type="submit" value="Submit">
+            </form>
+        </main>
+            <footer role="contentinfo">
+                <a href="https://github.com/ijbaer" id="github" target="_blank">GitHub</a> 
+                <a href="https://www.linkedin.com/in/ilanabaer/" id="linkedin" target="_blank">LinkedIn</a> 
+                <a href="https://www.facebook.com/ilana.baer.7" id="facebook" target="_blank">Facebook</a> 
+                <a href="images/resume.pdf" id="resume" target="_blank">Resume</a>
+                <p>Ilana Baer</p>
+            </footer>
+
     </body>
 </html>
 

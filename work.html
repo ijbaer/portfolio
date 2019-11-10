@@ -9,11 +9,12 @@
               href="https://fonts.googleapis.com/css?family=Caveat">
         <title>Work and Projects</title>
     </head>
-    <body onload="document.body.style.opacity='1'">
-        <div class="skip"><a href="#main-work">Skip to Main Content</a></div>
-        
+    <body>
+        <div id="skip">
+            <a href="#main-work">Skip to Main Content</a>
+        </div>
         <div class="nav">
-            <nav>
+            <nav role="navigation">
                 <ul>
                     <li><a href="index.html">ABOUT</a></li>
                     <li><a class="current" href="work.html">WORK</a></li>
@@ -22,18 +23,17 @@
                 </ul>
             </nav>
         </div>
-
         <div class="ilana">
-            <a name="ilana" id="ilana"></a>
+            <a id="ilana"></a>
             <p>Ilana Baer</p>
         </div>
-
         <div class="container-work">
-        <header id="main-work">
+
+        <header id="main-work" role="banner">
             <h1>Work and Projects</h1>
         </header>
-        
-        <div class="time-series text-block">
+
+        <div class="time-series text-block" role="main">
             <a name="time-series"></a>
             <h2>Time Series Model</h2>
         </div>
@@ -41,7 +41,7 @@
             <img src="images/time-series.jpg" alt="decorative"/>
             <p>Over the course of this past summer, I developed and utilized a time series model through Facebook’s Prophet to forecast future foot traffic trends in retail stores based on past data points.</p>
         </div>
-        
+
         <div class="anomaly text-block">
             <a name="anomaly"></a>
             <h2>Anomaly Detection</h2>
@@ -68,14 +68,15 @@
             <img src="images/infographic.jpg" alt="decorative"/>
             <p>For a past school assignment, I created an infographic on Information Overload. In the infographic, I synthesized and presented a compelling argument on the impact of having too much information.</p>
         </div>
-        <footer>
+
+        <footer role="contentinfo">
             <a href="https://github.com/ijbaer" id="github" target="_blank">GitHub</a> 
             <a href="https://www.linkedin.com/in/ilanabaer/" id="linkedin" target="_blank">LinkedIn</a> 
             <a href="https://www.facebook.com/ilana.baer.7" id="facebook" target="_blank">Facebook</a> 
             <a href="images/resume.pdf" id="resume" target="_blank">Resume</a>
     
             <p>Ilana Baer</p>
-            </footer>
+        </footer>
         </div>
     </body>
 </html>
